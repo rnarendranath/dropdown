@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Drop Down</title> 
+        <style>
+       .dropbtn {
+           background-color:bisque; 
+  color: rgb(105, 97, 97);
+  padding: 16px;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px Black;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: aquamarine}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(26, 47, 114);
+  border-bottom:groove  blue;
+  color:blanchedalmond;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+  </style>
+</head>
+<body style="background-color: bisque;">
+
+      <div class="dropdown" >
+        &emsp; &emsp; &emsp; 
+           <button class="dropbtn"><h2>Explore  &emsp;</h2></button>
+          <div class="dropdown-content">
+           <a href="https://www.omen.com/in/en.html">Gaming</a>
+            <a href="https://www.hp.com/in-en/pavilion.html">Everyday</a>
+            <a href="https://www.hp.com/in-en/laptops/business-laptops-and-2-in-1s.html">Business Laptops</a>
+            <a href="https://www.hp.com/in-en/desktops/business-desktops.html">Business Desktops</a>
+            </div>
+          </div>
+            <div class="dropdown"> 
+            <button class="dropbtn"><h2>Shop  &emsp;</h2></button>
+          <div class="dropdown-content">
+           <a href="https://www.hp.com/in-en/shop/hp-laptop-family#home">Laptops for Home</a>
+            <a href="https://www.hp.com/in-en/shop/hp-laptop-family#business">Laptops for Work</a>
+            <a href="https://www.hp.com/in-en/shop/laptops-tablets/laptop-promotions.html">Laptop On sale</a>
+            <a href="https://www.hp.com/in-en/shop/desktops/desktop-promotions.html">Desktop On sale</a>
+            </div>
+
+        </div>
+
+        <div class="dropdown"> 
+          <button class="dropbtn"><h2>Support &emsp;</h2></button>
+        <div class="dropdown-content">
+         <a href="https://www.hp.com/in-en/contact-hp/contact.html">Contact Us</a>
+          <a href="https://www.hp.com/in-en/shop/returns">Return Policy</a>
+          <a href="checkwarranty.html">Check Warranty</a>
+          
+          </div>
+
+      </div>
+      <img src="logo.jpg" height="100%" width="100%">
+      
+    </body>
+</html>
